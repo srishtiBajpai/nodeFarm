@@ -11,7 +11,7 @@ card+="";
 overview+=""
 datajson= JSON.parse(data)
   
-var str=""                //empty string
+var str=""                
   
 
 var replace = function(num,template){
