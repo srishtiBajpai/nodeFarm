@@ -79,7 +79,9 @@ var server = http.createServer(function(req,res)
 
 })
 
-server.listen(3000, function()
+var port = process.env.PORT||3000
+
+server.listen(port, function()
 {
 
     console.log("Server listening at 3000")
